@@ -28,6 +28,7 @@ ping -c 3 ping.archlinux.org
 ### Set time and data
 # timedatectl list-timezones
 timedatectl set-timezone Europe/Vinlius
+timedatectl set-ntp true
 ```
 
 ## Filesystem preparation
